@@ -23,7 +23,7 @@ namespace listOperation
                 return  x.Append(y).ToArray();
             }).ToArray();
 
-            //filter out those vector which's norm is more than 1
+            //filter out those vector which's norm is equlas to 1
             List<float[]> __unityTable = __list.Where(x=>norm2(x)==1).ToList();
 
         }
